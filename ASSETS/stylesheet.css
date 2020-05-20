@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*cambios generales a todo*/
+body{
+	text-align: justify;
+	font-weight: bold;
+	font-size: 100%;
+	background-image: url(../IMAGES/FONDO/fondo.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/*cambios generales para centrar y crear el tamaño buscado*/
+.section{
+	width: 60%;
+	margin: auto;
+	padding-top: 10%;
+}
+
+/*establezco las propiedades de los articulos*/
+article{
+	background: #E4E1E1;
+	border: 5px ridge #4E1011;
+	padding: 2%;
+	border-radius: 10px;
+}
+
+/*centro los botones*/
+.boton{
+	margin-bottom: 2.5%;
+}
+
+/*centro los encabezados blancos*/
+.blancos{
+	width: 80%;
+	height: 80%;
+	padding-left: 10%;
+}
+
+/*modifico el header a mi antojo*/
+header{
+	background-image: url(../IMAGES/../IMAGES/FONDO/unnamed.jpg);
+	border-radius: 20px;
+	width: 80%;
+	margin-left: 10%;
+	border: 5px ridge #4E1011;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.titulazo{
+	padding-bottom: 10%;
+	padding-top: 10%;
+}
+
+/*bordeo la imagen de la portada del juego*/
+.imagenportada{
+	border-radius: 10px;
+}
+
+/*coloco el parrafo*/
+.left{
+	float: left;
+	margin-right: 5%;
+}
+.parrafos{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+/*Cajas de las contribuciones*/
+.contribuciones {
+	border: 5px ridge #4E1011;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background: #E4E1E1;
+}
+
+/*Distintas modificaciones extra*/
+.niveles {
+	margin-left: 4%
+}
+.redes {
+	width: 50%;
+	margin-left: 24%;
+	display: inline;
+}
+.imgredes {
+	width: 10%;
+	height: 10%;
+	margin-left: 4%;
+}
+.imgredes2 {
+	width: 15%;
+	height: 15%;margin-left: 2%;
+}
+.imagen {
+	width: 100%;
+	height: 100%;
+}
+.preguntas {
+	border-bottom: outset black;
+}
+.redondeo {
+	border-radius: 10px;
+}
+
+/*SLIDESHOW*/
+
+#slideshow {
+ width: 96%;
+ height: 100%;
+ float: left;
+ border: solid 20px black;
+	border-radius: 15px;
+ margin-bottom: 30px;
+ background: black;
+}
+
+/*Todo lo de Slideshow*/
+.slidesjs-next.slidesjs-navigation {
+ visibility: hidden;
+ color: white;
+ padding: 5px;
+}
+.slidesjs-previous.slidesjs-navigation {
+ visibility: hidden;
+ color: white;
+ padding: 5px;
+}
+.slidesjs-pagination {
+ margin: -16px auto;
+ width: 120px;
+}
+.slidesjs-pagination li {
+ float: left;
+ margin: 0px 5px;
+ list-style: none;
+ background-color: white;
+ border-radius: 6px;
+}
+.slidesjs-pagination li a {
+ display: block;
+ width: 12px;
+ height: 0px;
+ padding-top: 20px;
+ float: left;
+ overflow: hidden;
+ border-radius: 6px;
+}
+.slidesjs-pagination li .active {
+ background-color: #1798af;
+}
+#slideshow img {
+ width: 100%;
+ height: 100%;
+}
+
+
+
